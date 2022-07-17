@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_trinkgeldrechner.css">
+    <script src="script.js"></script>
+    <title>Trinkgeldrechner</title>
+</head>
+<body>
+    <div class ="main">
+        <div class="container_calculater">
+            <h3>Trinkgeld - Kalkulator<h3>
+            <div class="linie">
+                <hr>
+            </div>
+            <div class="betrag">
+                <div class="topic1">Betrag</div>    
+                <div class="bild1"><img src="euro_symbol.png"></div><input type ="text" id="betrag">
+            </div>
+            <div class="gaeste">
+                <div class="topic2">Anzahl Gäste</div>
+                <div class="bild2"><img src="person.png"></div><input type ="text" id="anzahlGast">
+            </div>
+            <div class="qualitaet">
+                <div class="topic3">Service-Qualität</div>    
+                <select id ="auswahl">
+                    <option disabled selected value="0">Choose...</option>
+                    <option value="0.3">30% - hervorragend</option>
+                    <option value="0.2">20% - gut</option>
+                    <option value="0.15">15% - war in Ordnung</option>
+                    <option value="0.1">10% - schlecht</option>
+                    <option value="0.05">5% - sehr schlecht</option>
+                </select>
+            </div>
+            <div class="linie2">
+                <hr>
+            </div>
+            <div class="button">
+                <button onclick="rechne()">Berechne</button>
+            </div>
+            <div id="trinkgeld"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body{
+    background: conic-gradient(at 120% 100%, #bab9b5,#cececb);
+}
+
+.container_calculater{
+    width: 450px;
+    height: 380px;
+    background-color: ghostwhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 47px;
+    border-radius: 8px;
+    box-shadow: 0.5px 2px 3px rgb(138, 137, 137);
+}
+
+.container_calculater h3{
+    text-align: center;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linie hr{
+    border-top: 1.5px solid;
+    border-color: rgb(235, 235, 235);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+
+.linie2 hr{
+    border-top: 1.5px solid;
+    border-color: rgb(235, 235, 235);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+.topic1{
+    text-align: start;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12pt;
+    font-style:oblique;
+    margin-bottom: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+img{
+    width: 12px;
+    height: 15px;
+    padding-top: 9px;
+}
+
+
+.fa-solid{
+    width: 10px;
+    height: 15px;
+    padding-top: 9px;
+}
+
+
+.topic2{
+    text-align: start;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12pt;
+    font-style:oblique;
+    margin-bottom: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.topic3{
+    text-align: start;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 12pt;
+    font-style:oblique;
+    margin-bottom: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.container_calculater.betrag h4{
+    margin-left: 20px;
+}
+
+
+.bild1{
+    margin-left: 20px;
+    width: 40px;
+    height: 34px;
+    border: 1px solid rgb(214, 211, 209);
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.bild2{
+    margin-left: 20px;
+    width: 40px;
+    height: 34px;
+    border: 1px solid rgb(214, 211, 209);
+    float: left;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+input[type="text"]{
+    width: 365px;
+    height: 32px;
+    border: 1px solid rgb(214, 211, 209);
+    border-radius: 2px;
+    margin-left: -18px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+select{
+    margin-left: 2px;
+    width: 407px;
+    height: 36px;
+    border: 1px solid rgb(214, 211, 209);
+    background-color: white;;
+    border-radius: 5px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgb(197, 197, 201);
+    background-color: ghostwhite;;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(223, 217, 217);
+    border-color: rgb(223, 217, 217);
+}
+
+
+/*
+- wenn das Trinkgeld mindestens 10 € beträgt, soll das Fenster in grün erscheinen.
+*/
+#trinkgeld{
+    visibility: visible;
+    width: 418px;
+    background-color: #f8f8ff;
+    color: black;
+    text-align: center;
+    border-radius: 7px;
+    padding: 16px;
+    position: relative;
+    margin-top: 40px;
+    height: 20px;
+    font-style: italic;
+}
